@@ -1,0 +1,182 @@
+/* Fonte e fundo geral com imagem */
+body {
+  margin: 0; /* Remove a margem padrão do corpo */
+  padding: 0; /* Remove o padding padrão do corpo */
+  font-family: 'Fira Code', Consolas, 'Courier New', monospace; /* Define a fonte para estilo monoespaçado */
+  color: #00ff00; /* Define a cor do texto para verde neon */
+  background-color: #000000; /* Define o fundo como preto */
+}
+
+/* Fundo com imagem no topo da página */
+.fundo-topo {
+  background-size: cover; /* Faz a imagem de fundo cobrir toda a área do elemento */
+  background-position: top center; /* Posiciona a imagem de fundo no topo e centralizada horizontalmente */
+  background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+  background-color: rgba(0, 0, 0, 0.7); /* Aplica um fundo preto translúcido para escurecer a imagem */
+  background-blend-mode: darken; /* Combina a imagem de fundo com a cor para escurecer */
+  padding: 60px 20px 40px; /* Espaço interno: 60px topo, 20px laterais, 40px base */
+  text-align: center; /* Centraliza horizontalmente o conteúdo do elemento */
+}
+
+/* Foto de perfil */
+.foto {
+  display: flex; /* Define container flexível para layout */
+  justify-content: center; /* Centraliza a foto horizontalmente */
+  align-items: center; /* Centraliza a foto verticalmente */
+}
+
+.foto img {
+  width: 150px; /* Define largura fixa da imagem */
+  height: 150px; /* Define altura fixa da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  object-fit: cover; /* Corta a imagem para preencher o espaço sem distorção */
+  box-shadow: 0 0 15px #00ff00; /* Aplica uma sombra verde ao redor da imagem */
+  border: 3px solid #00ff00; /* Borda sólida verde ao redor da imagem */
+}
+
+/* Cabeçalho */
+header {
+  background-color: #001100; /* Fundo escuro esverdeado */
+  color: #00ff00; /* Cor do texto verde neon */
+  padding: 30px 20px; /* Espaçamento interno (30px vertical, 20px horizontal) */
+  text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+header h1 {
+  font-size: 32px; /* Define tamanho da fonte do título */
+  margin: 0 0 15px 0; /* Remove margens superior, esquerda e direita; adiciona 15px na base */
+}
+
+/* Navegação */
+nav ul {
+  list-style: none; /* Remove marcadores da lista */
+  display: flex; /* Exibe itens em linha usando flexbox */
+  justify-content: center; /* Centraliza os itens da lista */
+  gap: 20px; /* Espaço entre os itens da lista */
+  padding: 0; /* Remove padding padrão */
+  margin-top: 20px; /* Espaço acima da lista */
+}
+
+nav a {
+  color: #00ff00; /* Cor dos links verde neon */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-weight: bold; /* Deixa o texto em negrito */
+  font-size: 16px; /* Tamanho da fonte dos links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+  color: #55ff55; /* Muda para um verde mais claro no hover */
+}
+
+/* Seções gerais */
+section {
+  background-color: #111111; /* Fundo cinza muito escuro */
+  margin: 30px auto; /* Espaço acima e abaixo e centraliza horizontalmente */
+  padding: 25px; /* Espaço interno */
+  max-width: 800px; /* Largura máxima da seção */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 0 15px #00ff00; /* Sombra verde em volta da seção */
+  border: 1px solid #00ff00; /* Borda fina verde */
+}
+
+section h2 {
+  font-size: 24px; /* Tamanho da fonte do título da seção */
+  border-bottom: 2px solid #00ff00; /* Linha verde abaixo do título */
+  padding-bottom: 8px; /* Espaço interno abaixo do título */
+  margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+/* Links */
+a {
+  color: #00ff00; /* Cor padrão verde para todos os links */
+}
+
+a:hover {
+  color: #55ff55; /* Verde mais claro ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+  background-color: #00aa00; /* Fundo verde escuro */
+  color: #0a0a0a; /* Cor do texto preto-esverdeado */
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 20px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho do texto menor */
+  border-top: 2px solid #00ff00; /* Linha verde no topo do rodapé */
+  margin-top: 50px; /* Espaço acima do rodapé */
+}
+
+/* Formulário de contato */
+form {
+  display: flex; /* Define container flexível para o formulário */
+  flex-direction: column; /* Organiza os campos em coluna */
+  gap: 15px; /* Espaço entre os campos */
+  margin-top: 20px; /* Espaço acima do formulário */
+  color: #00ff00; /* Cor do texto verde */
+  background-color: #1a1a1a; /* Fundo cinza escuro para o formulário */
+  border-radius: 10px; /* Cantos arredondados */
+  padding: 25px; /* Espaço interno */
+  box-shadow: 0 0 10px #00ff00; /* Sombra verde ao redor do formulário */
+}
+
+label {
+  font-weight: bold; /* Negrito para os rótulos */
+  color: #00ff00; /* Cor verde para os rótulos */
+}
+
+input,
+textarea {
+  background-color: #1a1a1a; /* Fundo escuro para campos */
+  color: #00ff00; /* Texto verde */
+  border: 1px solid #00ff00; /* Borda verde */
+  padding: 10px; /* Espaço interno */
+  border-radius: 5px; /* Cantos arredondados */
+  font-family: 'Fira Code', monospace; /* Fonte monoespaçada para digitação */
+  box-shadow: 0 0 10px #00ff00; /* Sombra verde suave */
+}
+
+input:focus,
+textarea:focus {
+  outline: none; /* Remove a borda azul padrão ao focar */
+  box-shadow: 0 0 10px #00ff00; /* Sombra verde para indicar foco */
+}
+
+button {
+  background-color: #00ff00; /* Fundo verde para o botão */
+  color: #000; /* Texto preto no botão */
+  padding: 10px 15px; /* Espaçamento interno */
+  font-weight: bold; /* Texto em negrito */
+  border: none; /* Remove borda padrão */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor em forma de mãozinha */
+  font-family: 'Fira Code', monospace; /* Fonte monoespaçada */
+  transition: background-color 0.3s ease; /* Transição suave da cor do fundo */
+}
+
+button:hover {
+  background-color: #55ff55; /* Muda para verde claro ao passar o mouse */
+}
+
+/* Link do GitHub destacado */
+.github-link {
+  color: #00ff00; /* Cor verde neon */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 18px; /* Tamanho maior da fonte */
+  text-shadow: 0 0 8px #00ff00; /* Sombra verde brilhante no texto */
+  border: 2px solid #00ff00; /* Borda verde grossa */
+  padding: 8px 15px; /* Espaçamento interno no link */
+  border-radius: 8px; /* Cantos arredondados */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para cor e fundo */
+  display: inline-block; /* Permite aplicar margin vertical */
+  text-decoration: none; /* Remove sublinhado */
+  box-shadow: 0 0 15px #00ff00; /* Sombra verde ao redor */
+  margin-top: 15px; /* Espaço acima do link para afastar do texto */
+}
+
+.github-link:hover {
+  background-color: #00ff00; /* Fundo verde no hover */
+  color: #000000; /* Texto preto no hover */
+  text-shadow: none; /* Remove sombra do texto */
+  box-shadow: 0 0 25px #55ff55; /* Sombra verde clara maior no hover */
+}

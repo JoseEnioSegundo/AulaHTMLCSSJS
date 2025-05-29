@@ -1,0 +1,25 @@
+<!DOCTYPE html> → informa ao navegador que isso é um documento HTML5.
+<html> → é o elemento raiz do documento.
+<head> → parte que contém informações da página (não visíveis).
+<meta charset="UTF-8"> → garante que acentos funcionem corretamente.
+<title> → nome que aparece na aba do navegador.
+<body> → parte visível da página.
+
+Tag	Função
+<h1>	Título principal
+<p>	Parágrafo
+<a>	Link
+<img>	Imagem
+<ul>	Lista não ordenada
+<ol>	Lista ordenada
+<li>	Item de lista
+<strong>	Texto em negrito
+<em>	Texto em itálico
+<br>	Quebra de linha
+Tag	Uso
+<header>	Cabeçalho da página ou seção
+<nav>	Links de navegação
+<main>	Conteúdo principal da página
+<section>	Seções específicas do conteúdo
+<article>	Conteúdo independente (ex: post de blog)
+<footer>	Rodapé da página

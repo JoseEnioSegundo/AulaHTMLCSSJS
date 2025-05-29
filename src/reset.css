@@ -1,0 +1,35 @@
+/* Reset básico e seguro */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remover decorações padrão de listas e links */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tornar inputs e botões visualmente consistentes */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Ajustes para o body e html */
+html,
+body {
+  height: 100%;
+}
